@@ -1,0 +1,30 @@
+.header__auth-link {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-self: center;
+    margin-top: 6px;
+}
+
+.header__auth-link:hover {
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+  }
+  
+@media screen and (max-width: 560px) {
+  .header__auth-link {
+      font-size: 14px;
+      margin: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__auth-link {
+      margin-right: 30px;
+  }
+}

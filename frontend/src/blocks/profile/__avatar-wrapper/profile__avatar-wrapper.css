@@ -1,0 +1,26 @@
+.profile__avatar-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile__avatar-wrapper::before {
+  content: '';
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url(../../../images/profile_changeAvatar.svg);
+  background-size: 26px 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+.profile__avatar-wrapper:hover::before {
+  opacity: 1;
+  background-color: rgba(0,0,0,0.8);
+}

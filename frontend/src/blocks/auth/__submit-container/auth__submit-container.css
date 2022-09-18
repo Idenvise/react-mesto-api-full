@@ -1,0 +1,24 @@
+.auth__submit-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35vh;
+}
+
+@media screen and (max-height: 800px) {
+    .auth__submit-container {
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (max-height: 617px) {
+    .auth__submit-container {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .auth__submit-container {
+        margin-bottom: 106px;
+    }
+}

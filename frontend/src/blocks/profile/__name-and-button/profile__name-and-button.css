@@ -1,0 +1,8 @@
+.profile__name-and-button {
+ display: flex;
+}
+@media screen and (max-width: 767px) {
+  .profile__name-and-button {
+    justify-content: center;
+  }
+}
