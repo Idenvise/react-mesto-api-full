@@ -1,4 +1,4 @@
-const BASE_URL = 'https://back.mesto.ru.nomorepartiesxyz.ru';
+const BASE_URL = 'http://localhost:3000';
 
 
 export const register = (email, password) => {

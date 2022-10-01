@@ -1,5 +1,5 @@
 const config = {
-  baseUrl: 'https://back.mesto.ru.nomorepartiesxyz.ru',
+  baseUrl: 'http://localhost:3000',
   headers: {
     authorization: localStorage.getItem('token'),
     'Content-Type': 'application/json',
